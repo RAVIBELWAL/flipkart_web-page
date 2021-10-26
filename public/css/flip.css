@@ -1,0 +1,81 @@
+
+    body {
+      margin: 0px;
+    }
+
+    .main {
+      height: 50px;
+    }
+
+    .navbar {
+      height: 50px;
+      background-color: #2874f0;
+
+      display: flex;
+      padding-left: 300px;
+      padding-right: 300px;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .flipkart_logo {
+      width: 100px;
+    }
+
+    .search_logo {
+      width: 22px;
+    }
+    input {
+      width: 500px;
+      height: 25px;
+
+      border: solid 1px white;
+    }
+    .navbar_rhs {
+      display: flex;
+      gap: 20px;
+
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      padding-left: 200px;
+    }
+
+    .search_btn {
+      background-color: white;
+      border: solid 1px white;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+    }
+
+    .products{
+
+        display: grid;
+        grid-template-columns: 400px 400px 400px 400px;
+
+        justify-content: end;
+    }
+
+    #product-img{
+
+        width:200px
+
+    }
+
+    h1{
+
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+    }
+
+    #product-rating{
+
+        background-color:green;
+        color: white;
+        border: solid 1px green;
+    }
